@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+form > label > input{
+    padding-left: 3px;
+    width: 100%;
+}
+
+.backToHomeBtn{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 3px 2px;
+    color: black;
+}
+
+.backToHomeBtn:hover{
+    color: white;
+    background: black;
+}
